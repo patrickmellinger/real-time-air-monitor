@@ -79,7 +79,7 @@ Estimated cost of components before shipping and taxes: ~$100USD
 **Breadboard ground rail** :arrow_right: **OLED GND**  
 
 ## Using this sketch
-<p>This sketch should work out-of-the-box if you wire yours the same way I wired mine and everything is connected correctly. However, you will need to calibrate it to get correct results. The hardware calibrations instructions are out-of-scope for this document, but the PMS7003M and BME680 documentation is very good.</p>
+<p>This sketch should work out-of-the-box if you wire yours the same way I wired mine and everything is connected correctly. However, you will need to calibrate it to get correct results. The hardware calibration instructions are out-of-scope for this document, but the PMS7003M and BME680 documentation is very good.</p>
 
 <p>One thing you will have to do is to set the sea-level pressure for YOUR location and time. This will give you the most accurate pressure and altitude measurements, but unfortunately changes constantly. Check your local weather and, if you need to, convert the local data into Hectopascals (hPa). There is a variable in the sketch called SEALEVELPRESSURE_HPA, replace the value in the sketch with your current local weather conditions.</p>
 
@@ -87,10 +87,10 @@ Estimated cost of components before shipping and taxes: ~$100USD
 
 <p>If you're looking for ideas on what to add, here are a few suggestions: </p>
 
-* A Real Time Clock (RTC) module, and a time-of-day animation 
-* A scrolling text marquee that changes based on sensor input
-* Add some buttons, and a digital pet that reacts to user input AND environment effects
-* Add a wireless network adapter and a GPS, so the Arduino can look up the sea-level pressure on its own
+* A Real Time Clock (RTC) module, and a time-of-day animation.
+* A scrolling text marquee that changes based on sensor input.
+* Add some buttons, and a digital pet that reacts to user input AND environmental conditions.
+* Add a wireless network adapter and a GPS, so the Arduino can look up the sea-level pressure on its own.
 
 ## Understanding the data
 ### VOCs
@@ -131,4 +131,4 @@ Estimated cost of components before shipping and taxes: ~$100USD
 - All of the Github repos linked in the libraries section above are potentially useful.
 
 ## Feedback
-<p>I'm relavtively new to Arduino, so please let me know if this can be improved. All feedback is welcome. If you have a problem with any part of this repository, please open an issue. For other inquiries please contact me directly.</p>
+<p>I'm relavtively new to Arduino, so please let me know if this can be improved. All feedback is welcome. If you have a problem with any part of this repository, please open an issue. For other enquiries please contact me directly.</p>
